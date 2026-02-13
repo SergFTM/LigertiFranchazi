@@ -1,6 +1,7 @@
 <script lang="ts">
 	import EventCard from '$lib/components/EventCard.svelte';
 	import CityCard from '$lib/components/CityCard.svelte';
+	import PlatformManifest from '$lib/components/PlatformManifest.svelte';
 	import { getEventsByCity } from '$lib/data/mock';
 
 	let { data } = $props();
@@ -97,6 +98,9 @@
 		{/each}
 	</div>
 </section>
+
+<!-- Platform Manifest — Digital-first messaging -->
+<PlatformManifest />
 
 <!-- CTA Banner -->
 <section class="max-w-7xl mx-auto px-4 py-16">

@@ -1,5 +1,6 @@
 <script lang="ts">
 	import { enhance } from '$app/forms';
+	import PlatformManifest from '$lib/components/PlatformManifest.svelte';
 
 	let { form } = $props();
 
@@ -334,6 +335,9 @@
 		</div>
 	</div>
 </section>
+
+<!-- Platform Manifest — Why we're a digital platform -->
+<PlatformManifest />
 
 <!-- Application Form -->
 <section id="apply" class="max-w-2xl mx-auto px-4 py-16">
