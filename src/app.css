@@ -1,0 +1,40 @@
+@import 'tailwindcss';
+
+@theme {
+	/* Lavender palette */
+	--color-lavender-50: #faf5ff;
+	--color-lavender-100: #f3e8ff;
+	--color-lavender-200: #e9d5ff;
+	--color-lavender-300: #d8b4fe;
+	--color-lavender-400: #c084fc;
+	--color-lavender-500: #a855f7;
+	--color-lavender-600: #9333ea;
+	--color-lavender-700: #7e22ce;
+	--color-lavender-800: #6b21a8;
+	--color-lavender-900: #581c87;
+
+	/* Brand colors */
+	--color-brand: #9333ea;
+	--color-brand-light: #e9d5ff;
+	--color-brand-dark: #581c87;
+	--color-surface: #faf5ff;
+	--color-surface-card: #ffffff;
+	--color-accent: #f59e0b;
+	--color-danger: #ef4444;
+	--color-success: #10b981;
+
+	/* Typography */
+	--font-sans: 'Inter', system-ui, -apple-system, sans-serif;
+	--font-display: 'Playfair Display', Georgia, serif;
+}
+
+/* Global styles */
+body {
+	font-family: var(--font-sans);
+	background-color: var(--color-surface);
+	color: var(--color-lavender-900);
+}
+
+h1, h2, h3 {
+	font-family: var(--font-display);
+}
